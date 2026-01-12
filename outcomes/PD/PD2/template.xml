@@ -9,20 +9,7 @@
                 </p>            
             <p>We don't know a formula for <m>f</m>, but we do know that <m>f({{x0}},{{y0}}) = {{z0}}.</m></p>
         </intro>
-        
-          <knowl>
-            <content>
-                <p>
-                    Use linearization to approximate the value of <m>f({{x1}},{{y1}}).</m>
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   An approximate value is <m>{{z0}}+{{fx0}}({{dx}})+{{fy0}}({{dy}}) = {{z1}}</m>.
-                </p>
-             </outtro>
-         </knowl>
-        
+
         <knowl>
             <content>
                 <p>
@@ -33,8 +20,23 @@
                 <p>
                    <m>{{fx0}}({{xe}}) + {{fy0}}({{ye}}) - ({{ze}})=0</m>, or <m>{{planelhs}} = {{planerhs}}</m>.
                 </p>
-             </outtro>
-         </knowl>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+        <content>
+            <p>
+                Use linearization to approximate the value of <m>f({{x1}},{{y1}}).</m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+                An approximate value is <m>{{z0}}+{{fx0}}({{dx}})+{{fy0}}({{dy}}) = {{z1}}</m>.
+            </p>
+            </outtro>
+        </knowl>
+        
+        
         
 
 </knowl>
