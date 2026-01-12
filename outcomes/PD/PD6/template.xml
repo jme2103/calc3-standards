@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <intro>
+        <p>Consider a function <m>f(x,y)={{fxy}}</m> where <m>x(t)={{fx}}, y(t)={{fy}}</m>.</p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>
+                Find <m>\frac{\partial}{\partial x} f(x,y)</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\frac{\partial}{\partial x} f(x,y)={{DFx}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Find <m>\frac{\partial}{\partial y} f(x,y)</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\frac{\partial}{\partial y} f(x,y)={{DFy}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Find <m>\frac{\partial}{\partial t} x(t)</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\frac{\partial}{\partial t} x(t)={{Dxt}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Find <m>\frac{\partial}{\partial t} y(t)</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\frac{\partial}{\partial t} y(t)={{Dyt}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Use the chain rule to compute <m>\frac{\partial}{\partial t} f(x,y)</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\frac{\partial}{\partial t} f(x,y)={{DFxyt}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Find the instantaneous rate of change for  <m>f(x,y)</m> when <m>t={{t0}}</m>.
+                
+                
+            </p>
+        </content>
+        <outtro>
+            <p>
+                When <m>t={{t0}}</m> we have <m>x={{x0}}, y={{y0}}</m> and <m>\frac{\partial}{\partial t} f(x,y)|_{t={{t0}}}={{DFt0}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+             
+</knowl>

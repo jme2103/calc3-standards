@@ -122,6 +122,38 @@
                 Use algebra, continuity, and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
             </description>
         </outcome>
+        <outcome>
+            <title>Multivariable Chain Rule</title>
+            <slug>PD6</slug>
+            <path>outcomes/PD/PD6</path>
+            <description>
+                Identify all routes of composition when two or more multivariable functions are composed, and use the multivariable chain rule to compute partial derivatives.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Higher Dimensional Gradients</title>
+            <slug>PD7</slug>
+            <path>outcomes/PD/PD7</path>
+            <description>
+                Compute the gradient vector of a three-variable function, give its geometric interpretation with respect to its level surfaces, and use it to calculate directional derivatives in a given direction.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multivariable Extreme Values</title>
+            <slug>PD8</slug>
+            <path>outcomes/PD/PD8</path>
+            <description>
+                Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Constrained Optimization</title>
+            <slug>PD9</slug>
+            <path>outcomes/PD/PD9</path>
+            <description>
+                Use Lagrange multipliers to determine absolute maximum and minimum values of a multivariable function subject to one or more constant constraints.
+            </description>
+        </outcome>
 
     <!-- Sample outcomes for testing -->
         <outcome>
