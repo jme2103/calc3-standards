@@ -5,7 +5,7 @@
     <url>https://checkit.clontz.org</url>
     <outcomes>
 
-    <!-- MV - Multivariable Outcomes -->
+    <!-- MV - Euclidean Space and Multivariable Functions -->
 
         <outcome>
             <title>Surfaces and Graphs</title>
@@ -79,6 +79,49 @@
                 Solve vector equations to find the equilibrium state of a system.
             </description>
         </outcome> -->
+    
+    <!-- PD - Partial Derivatives -->
+
+        <outcome>
+            <title>Partial Derivatives</title>
+            <slug>PD1</slug>
+            <path>outcomes/PD/PD1</path>
+            <description>
+                Compute the partial derivatives of a given multivariable function up to second order.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Tangent Planes</title>
+            <slug>PD2</slug>
+            <path>outcomes/PD/PD2</path>
+            <description>
+                Find equations for tangent planes to surfaces expressed as graphs of two-variable functions and as level sets of three-variable functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Gradients</title>
+            <slug>PD3</slug>
+            <path>outcomes/PD/PD3</path>
+            <description>
+                Compute the gradient vector of a two-variable function, give its geometric interpretation with respect both to the contours of the function and to its graph, and use it to calculate directional derivatives in a given direction.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Critical Points of Multivariable Functions</title>
+            <slug>PD4</slug>
+            <path>outcomes/PD/PD4</path>
+            <description>
+                Use gradient vectors to locate critical points of a multivariable function, and second-order partial derivatives to classify critical points as local maximum, local minimum, saddle point, or degenerate.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multivariable Limits</title>
+            <slug>PD5</slug>
+            <path>outcomes/PD/PD5</path>
+            <description>
+                Use algebra, continuity, and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
+            </description>
+        </outcome>
 
     <!-- Sample outcomes for testing -->
         <outcome>
