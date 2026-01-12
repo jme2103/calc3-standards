@@ -1,9 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
+    <title>Calculus III</title>
+    <slug>calcIII</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
+
+    <!-- MV - Multivariable Outcomes -->
+
+        <outcome>
+            <title>Surfaces and Graphs</title>
+            <slug>MV1</slug>
+            <path>outcomes/MV/MV1</path>
+            <description>
+                Use traces and contours to describe the graphs of functions of two variables.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Vector Arithmetic</title>
+            <slug>MV2</slug>
+            <path>outcomes/MV/MV2</path>
+            <description>
+                Compute and geometrically interpret sums, differences, scalar multiples, and magnitudes of vectors in n-dimensional space.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Vector Geometry</title>
+            <slug>MV3</slug>
+            <path>outcomes/MV/MV3</path>
+            <description>
+                Use dot products and cross products of vectors to compute quantities of geometric interest, including projections, angles, and areas.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parametrized Lines</title>
+            <slug>MV4</slug>
+            <path>outcomes/MV/MV4</path>
+            <description>
+                Determine parametric equations for a line in three-space.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Planes</title>
+            <slug>MV5</slug>
+            <path>outcomes/MV/MV5</path>
+            <description>
+                Find an equation for a plane in three-space defined either by three non-collinear points or by a point and a normal vector.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Intersections</title>
+            <slug>MV6</slug>
+            <path>outcomes/MV/MV6</path>
+            <description>
+                Find the intersection of lines and planes.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parameterized Curve</title>
+            <slug>MV7</slug>
+            <path>outcomes/MV/MV7</path>
+            <description>
+                Sketch and parameterize portions of oriented curves, including those defined by intersections of surfaces and those which involve circular motions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Derivatives and Curvature</title>
+            <slug>MV8</slug>
+            <path>outcomes/MV/MV8</path>
+            <description>
+                Use derivatives to determine, and distinguish among, a parameterized curve’s tangent, speed, velocity, and acceleration.
+            </description>
+        </outcome>
+        <!-- <outcome>
+            <title>Equilibrium</title>
+            <slug>NC</slug>
+            <path>outcomes/NC</path>
+            <description>
+                Solve vector equations to find the equilibrium state of a system.
+            </description>
+        </outcome> -->
+
+    <!-- Sample outcomes for testing -->
         <outcome>
             <title>Sample Outcome</title>
             <slug>EX1</slug>

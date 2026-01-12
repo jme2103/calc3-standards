@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <content>
+        <p>The graph and a contour plot of a function of two variables <m>z = f(x,y)</m> is shown. Note that the <m>x</m>-coordinates of points are given along the bottom of the contour plot and <m>y</m>-coordinates along the left.</p>
+        
+        <p>
+        <image
+            source="assets/MV1/generated/{{__seed__}}/surface.png"
+            description="Three dimensional plot."/>
+                    
+        <image
+            source="assets/MV1/generated/{{__seed__}}/contour.png"
+            description="Contour plot."/>
+        </p>
+                        
+        <p>
+        Which of the following is the best choice for the function <m>f(x,y)</m>? For each choice, you must provide
+        at least one reason that specifically references its traces, contours, or values for why it is or is not the 
+        best choice. 
+        </p>
+        <list>
+            <item><p><m>z={{choice0}}.</m></p></item>
+            <item><p><m>z={{choice1}}.</m></p></item>
+            <item><p><m>z={{choice2}}.</m></p></item>
+            <item><p><m>z={{choice3}}.</m></p></item>
+            <item><p><m>z={{choice4}}.</m></p></item>
+        </list>
+    </content>
+                    
+    <outtro>
+        <p><m>z={{surface}}</m></p>
+    </outtro>
+
+</knowl>
