@@ -240,6 +240,46 @@
                 Determine if vector fields are gradients, find scalar potential functions for gradient fields, and apply the fundamental theorem of calculus for line integrals.
             </description>
         </outcome>
+        <outcome>
+            <title>Green's Theorem</title>
+            <slug>VC4</slug>
+            <path>outcomes/VC/VC4</path>
+            <description>
+                Use Green's Theorem to relate the total circulation of a vector field along a closed path to a double integral.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Curl of a Vector Field</title>
+            <slug>VC5</slug>
+            <path>outcomes/VC/VC5</path>
+            <description>
+                Compute the scalar curl of a two-dimensional vector field, compute the vector curl of a three-dimensional vector field, and use notions of circulation to predict whether the scalar curl of a two-dimensional vector field is positive, negative, or zero.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Divergence of a Vector Field</title>
+            <slug>VC6</slug>
+            <path>outcomes/VC/VC6</path>
+            <description>
+                Compute the divergence of a vector field and use notions of flux to predict whether the divergence of a given vector field is positive, negative, or zero.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Flux Integrals</title>
+            <slug>VC7</slug>
+            <path>outcomes/VC/VC7</path>
+            <description>
+                Directly compute the flux integral of a vector field through a given oriented surface.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Stokes' and Divergence Theorem</title>
+            <slug>VC8</slug>
+            <path>outcomes/VC/VC8</path>
+            <description>
+                Use Stokes’ Theorem (resp. Divergence Theorem) to relate a flux integral with a line integral (resp. triple integral).
+            </description>
+        </outcome>     
         
         
         
