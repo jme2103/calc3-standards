@@ -155,6 +155,66 @@
             </description>
         </outcome>
 
+    <!-- MI - Multiple Integrals -->
+
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI1</slug>
+            <path>outcomes/MI/MI1</path>
+            <description>
+                Describe a given region in the plane using coordinate inequalities in at least two distinct ways.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI2</slug>
+            <path>outcomes/MI/MI2</path>
+            <description>
+                Set up and evaluate double integrals over general regions, using iterated integrals with "tape-measured" bounds.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI3</slug>
+            <path>outcomes/MI/MI3</path>
+            <description>
+                Use polar coordinates to transform the integrand, the bounds, and the area element of a given double integral.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI4</slug>
+            <path>outcomes/MI/MI4</path>
+            <description>
+                Set up double integrals to compute surface areas of portions of parametrized surfaces.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI5</slug>
+            <path>outcomes/MI/MI5</path>
+            <description>
+                Set up and evaluate triple integrals over general regions using iterated integrals and “tape-measured” bounds.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI6</slug>
+            <path>outcomes/MI/MI6</path>
+            <description>
+                Use cylindrical and spherical coordinates to transform the integrand, the bounds, and the volume element of a given triple integral.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Multiple Integrals</title>
+            <slug>MI7</slug>
+            <path>outcomes/MI/MI7</path>
+            <description>
+                Use change of variables simplify a multiple integral.
+            </description>
+        </outcome>
+        
+
     <!-- Sample outcomes for testing -->
         <outcome>
             <title>Sample Outcome</title>
