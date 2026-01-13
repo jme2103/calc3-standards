@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <intro>
+            <p>Consider the vector field <m>\mathbf{F}(x,y)</m> whose plot is shown below. Also depicted is a line integral from <m>P</m> to <m>Q</m>.</p>
+            <p><image
+                    source="assets/VC2/generated/{{__seed__}}/task1plot.png"
+                    description="The vector field F(x,y), and line integral."/></p>
+            <p>Without computing the line integral, use the vector field and the direction of the line integral (from <m>P</m> to <m>Q</m>) to estimate if the value of this integral is positive or negative.</p>
+        </intro>
+        <outtro>
+            <p>The value of this line integral is {{intvalue}}.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Directly compute the line integral <m>\int_C \left\langle {{fx}}, {{fy}} \right\rangle \cdot d\mathbf{r}</m>, where <m>C</m> is the {{ctype}} originating at <m>P{{p}}</m> and ending at <m>Q{{q}}</m>.</p>
+            <p><image source="assets/VC2/generated/{{__seed__}}/plot.png" description="Vector field with curve."/></p>
+        </content>
+        <outtro>
+            <p> <m>\int_C \left\langle {{fx}}, {{fy}} \right\rangle \cdot d\mathbf{r}=\int_{t={{ta}}}^{t={{tb}}} {{integrand}}\, dt = {{result}}.</m></p>
+        </outtro>
+    </knowl>
+</knowl>

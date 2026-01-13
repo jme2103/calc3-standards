@@ -224,6 +224,24 @@
                 Sketch and identify vector fields in two and three dimensions, including gradient vector fields of two- and three-variable functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Line Integrals</title>
+            <slug>VC2</slug>
+            <path>outcomes/VC/VC2</path>
+            <description>
+                Directly compute the line integral of a vector field over a given oriented path.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Fundamental Theorem for Line Integrals</title>
+            <slug>VC3</slug>
+            <path>outcomes/VC/VC3</path>
+            <description>
+                Determine if vector fields are gradients, find scalar potential functions for gradient fields, and apply the fundamental theorem of calculus for line integrals.
+            </description>
+        </outcome>
+        
+        
         
 
     <!-- Sample outcomes for testing -->
