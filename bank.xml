@@ -158,7 +158,7 @@
     <!-- MI - Multiple Integrals -->
 
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Planar Regions</title>
             <slug>MI1</slug>
             <path>outcomes/MI/MI1</path>
             <description>
@@ -166,7 +166,7 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Double Integrals</title>
             <slug>MI2</slug>
             <path>outcomes/MI/MI2</path>
             <description>
@@ -174,7 +174,7 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Integrals in Polar Coordinates</title>
             <slug>MI3</slug>
             <path>outcomes/MI/MI3</path>
             <description>
@@ -182,7 +182,7 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Surface Area</title>
             <slug>MI4</slug>
             <path>outcomes/MI/MI4</path>
             <description>
@@ -190,7 +190,7 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Triple Integrals</title>
             <slug>MI5</slug>
             <path>outcomes/MI/MI5</path>
             <description>
@@ -198,7 +198,7 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Integrals in Cylindrical and Spherical Coordinates</title>
             <slug>MI6</slug>
             <path>outcomes/MI/MI6</path>
             <description>
@@ -206,11 +206,22 @@
             </description>
         </outcome>
         <outcome>
-            <title>Multiple Integrals</title>
+            <title>Change of Variables</title>
             <slug>MI7</slug>
             <path>outcomes/MI/MI7</path>
             <description>
                 Use change of variables simplify a multiple integral.
+            </description>
+        </outcome>
+
+        <!-- VC - Vector Calculus -->
+
+        <outcome>
+            <title>Vector Fields</title>
+            <slug>VC1</slug>
+            <path>outcomes/VC/VC1</path>
+            <description>
+                Sketch and identify vector fields in two and three dimensions, including gradient vector fields of two- and three-variable functions.
             </description>
         </outcome>
         
