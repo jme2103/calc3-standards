@@ -27,11 +27,11 @@ class Generator(BaseGenerator):
         wp = v.inner_product(w)/v.inner_product(v)*v
         
         if( vw > 0 ):
-            [vws, orient] = ["positive","parallel"]
+            [vws, orient, angle] = ["positive","parallel","acute"]
         if( vw < 0 ):
-            [vws, orient] = ["negative","anti-parallel"]
+            [vws, orient, angle] = ["negative","anti-parallel","obtuse"]
         if( vw == 0 ):
-            [vws,orient] = ["zero", "the zero vector"]
+            [vws,orient, angle] = ["zero", "the zero vector", "perpendicular"]
             
         angles = [pi/6, pi/4, pi/3, 2*pi/3, 3*pi/4, 5*pi/6, 30, 45, 60, 120, 135, 150]
         j = randrange(0,12)
@@ -91,6 +91,7 @@ class Generator(BaseGenerator):
             "op_text": optext,
             "op": op,
             "orient": orient,
+            "angle": angle,
             "vdotw": vw,
             "vdotw_sign": vws,
             "mx": mx,

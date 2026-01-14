@@ -21,6 +21,18 @@
                 <knowl>
                     <content>
                         <p>
+                            Is the angle between <m>\mathbf{v}</m> and <m>\mathbf{w}</m> acute, obtuse, or perpendicular? Justify your answer.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            The angle is {{angle}} because <m>\mathbf{v}\cdot\mathbf{w} = {{vdotw}}</m> is {{vdotw_sign}}. 
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
                             Is the vector projection <m>\mathbf{w}_{\parallel} = {\rm proj}_\mathbf{v} \mathbf{w}</m> parallel to <m>\mathbf{v}</m>, anti-parallel to <m>\mathbf{v}</m>, or is it the zero vector? Justify your answer.
                         </p>
                     </content>
