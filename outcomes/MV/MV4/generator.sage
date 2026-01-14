@@ -24,8 +24,10 @@ class Generator(BaseGenerator):
         # Option 1: Give point and give parametric equations of a parallel line
         if( k == 1 ):
             L = P + choice([-1,1])*choice([2,3,4])*V + t*V
-            first_condition = "contains the point P("+str(P[0])+","+str(P[1])+","+str(P[2])+")"
-            second_condition = "is parallel to the line with parametric vector equation r(t)=("+str(L[0]).replace('*','')+" , "+str(L[1]).replace('*','')+" , "+str(L[2]).replace('*','')+")"
+            first_condition_a = "contains the point "
+            first_condition_b = "P("+str(P[0])+","+str(P[1])+","+str(P[2])+")"
+            second_condition_a = "is parallel to the line with parametric vector equation "
+            second_condition_b = r"\mathbf{r}(t)=\langle"+str(L[0]).replace('*','')+" , "+str(L[1]).replace('*','')+" , "+str(L[2]).replace('*','')+r"\rangle"
             
         # Option 2: Give two intersecting planes
         if( k == 2 ):
@@ -51,23 +53,29 @@ class Generator(BaseGenerator):
             plane1 = n1[0]*x + n1[1]*y + n1[2]*z
             plane2 = n2[0]*x + n2[1]*y + n2[2]*z
 
-            first_condition = "is the intersection of the plane "+str(plane1).replace('*','')+" = "+str(b1)
-            second_condition = "the plane "+str(plane2).replace('*','')+" = "+str(b2)
+            first_condition_a = "is the intersection of the plane "
+            first_condition_b = str(plane1).replace('*','')+" = "+str(b1)
+            second_condition_a = "the plane "
+            second_condition_b = str(plane2).replace('*','')+" = "+str(b2)
             
             
         # Option 3: Give two points
         if( k == 3 ):
-            first_condition = "passes through the point P("+str(Q[0])+","+str(Q[1])+","+str(Q[2])+")"
-            second_condition = "the point Q("+str(P[0])+","+str(P[1])+","+str(P[2])+")"
+            first_condition_a = "passes through the point "
+            first_condition_b = "P("+str(Q[0])+","+str(Q[1])+","+str(Q[2])+")"
+            second_condition_a = "the point "
+            second_condition_b = "Q("+str(P[0])+","+str(P[1])+","+str(P[2])+")"
         
-        #surface = x^2+y^2
+
         return {
             "p": P,
             "q": Q,
             "v": V,
             "t": tt,
-            "first_condition": first_condition,
-            "second_condition": second_condition,
+            "first_condition_words": first_condition_a,
+            "first_condition_math": first_condition_b,
+            "second_condition_words": second_condition_a,
+            "second_condition_math": second_condition_b,
             "r1": r,
             "r2": rr
         }

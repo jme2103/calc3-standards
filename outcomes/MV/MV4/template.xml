@@ -2,14 +2,14 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
         <p>
-            Let <m>\mathcal{L}</m> denote the line in <m>\mathbb{R}^3</m> that {{first_condition}} and {{second_condition}}.
+            Let <m>\mathcal{L}</m> denote the line in <m>\mathbb{R}^3</m> that {{first_condition_words}} <m>{{first_condition_math}}</m> and {{second_condition_words}} <m>{{second_condition_math}}</m>.
         </p>
     </intro>    
             
                 <knowl>
                     <content>
                         <p>
-                            Find parametric equations <m>\begin{cases}x(t)&amp; =\\ y(t)&amp; =\\ z(t)&amp; = \qquad\end{cases}</m> for this line that satisfy <m>\bigl( x(0),y(0),z(0) \bigr) = {{p}}</m>. 
+                            Find parametric equations <m>\begin{cases}x(t)&amp; =\\ y(t)&amp; =\\ z(t)&amp; = \qquad\end{cases}</m> for <m>\mathcal{L}</m> that satisfy <m>\bigl( x(0),y(0),z(0) \bigr) = {{p}}</m>. 
                         </p>
                     </content>
                     <outtro>
@@ -21,7 +21,7 @@
                 <knowl>
                     <content>
                         <p>
-                            Find a parametric vector equation <m>\mathbf{r}(t) = \bigl( x(t) , y(t), z(t)\bigr)</m> for this line that satisfies <m>\mathbf{r}({{t}}) = {{p}}</m>. 
+                            Find a parametric vector equation <m>\mathbf{r}(t) = \bigl( x(t) , y(t), z(t)\bigr)</m> for <m>\mathcal{L}</m> that satisfies <m>\mathbf{r}({{t}}) = {{p}}</m>. 
                         </p>
                     </content>
                     <outtro>
