@@ -25,16 +25,17 @@
         <knowl>
             <content>
                 <p>
-                    Plot the portion of this curve where <m>-2 \leq t\leq 2</m>. 
+                    Describe this curve. First sketch (a part of) its projection onto a conveniently chosen coordinate plane. Then describe how the third coordinate changes along the projection.
                     
                     
                 </p>
             </content>
             <outtro>
                 <p>
-                   <image
+                    Answers will vary.
+                   <!-- <image
                 source="assets/NA/generated/{{__seed__}}/param.png"
-                description="Parameterized plot."/>
+                description="Parameterized plot."/> -->
                 </p>
              </outtro>
          </knowl>
