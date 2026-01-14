@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     
-    <knowl>
+
         <intro>
-            <p>Consider a particle whose position is parameterized by <m>r(t)=\langle {{f0}}, {{g0}}, {{h0}}\rangle</m>.</p>
+            <p>Consider a particle whose position is parameterized by <m>{\bf r}(t)=\langle {{f0}}, {{g0}}, {{h0}}\rangle</m>.</p>
         </intro>
         
         
@@ -32,7 +32,7 @@
             </content>
             <outtro>
                 <p>
-                   Since <m>r'(t)=\langle {{f1}}, {{g1}}, {{h1}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{vx}}, {{vy}}, {{vz}})</m> with magnitude <m>{{vmag}}</m>.
+                   Since <m>{\bf r}'(t)=\langle {{f1}}, {{g1}}, {{h1}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{vx}}, {{vy}}, {{vz}})</m> with magnitude <m>{{vmag}}</m>.
                 </p>
              </outtro>
          </knowl>
@@ -62,12 +62,11 @@
             </content>
             <outtro>
                 <p>
-                   Since <m>r''(t)=\langle {{f2}}, {{g2}}, {{h2}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{ax}}, {{ay}}, {{az}})</m> with magnitude <m>{{amag}}</m>.
+                   Since <m>{\bf r}''(t)=\langle {{f2}}, {{g2}}, {{h2}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{ax}}, {{ay}}, {{az}})</m> with magnitude <m>{{amag}}</m>.
                 </p>
              </outtro>
          </knowl>
-        
-    </knowl>  
+
     
     
     
@@ -76,17 +75,3 @@
                     
              
 </knowl>
-            <!--
-            <list>
-                <item><p><m>z={{choice0}}.</m></p></item>
-                <item><p><m>z={{choice1}}.</m></p></item>
-                <item><p><m>z={{choice2}}.</m></p></item>
-                <item><p><m>z={{choice3}}.</m></p></item>
-                <item><p><m>z={{choice4}}.</m></p></item>
-            </list>
-        </p>
-    </content>
-    <outtro>
-        <p><m>y={{surface}}</m></p>
-    </outtro>
-</knowl>-->
