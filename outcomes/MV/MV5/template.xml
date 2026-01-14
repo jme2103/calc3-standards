@@ -22,12 +22,12 @@
                 <knowl>
                     <content>
                         <p>
-                            Find an equation for the plane containing the points <m>{{A}}, {{B}}</m> and <m>{{C}}</m>. 
+                            Find an equation for the plane containing the points <m>A</m>, <m>B</m> and <m>C</m>. 
                         </p>
                     </content>
                     <outtro>
                         <p>
-                            Since <m>\overline{AB}\times\overline{AC}={{AB}}\times{{AC}}={{cross}}</m>, we have that the plane can be defined by <m>{{plane1}}</m>, or <m>\boxed{ {{plane1s}} }.</m> 
+                            Since <m>\overrightarrow{AB}\times\overrightarrow{AC}={{AB}}\times{{AC}}={{cross}}</m>, we have that the plane can be defined by <m>{{plane1}}</m>, or <m>\boxed{ {{plane1s}} }.</m> 
                         </p>
                     </outtro>
                 </knowl>
@@ -40,7 +40,7 @@
                     </content>
                     <outtro>
                         <p>
-                            This plane can be defined by <m>{{plane2}}</m>, or <m>\boxed{ {{plane2s}} }.</m>.
+                            This plane can be defined by <m>{{plane2}}</m>, or <m>\boxed{ {{plane2s}} }</m>.
                         </p>
                     </outtro>
                 </knowl>
