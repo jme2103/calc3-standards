@@ -22,7 +22,7 @@
                 <knowl>
                     <content>
                         <p>
-                            Consider lines <m>\mathcal{L}_1={{Lu}}, \mathcal{L}_2 = {{Lv}}</m>.  Find their point of intersection, if they don't intersect, state so.
+                            Let <m>\mathcal{L}_1</m> be the line <m>{{Lu}}</m> and let <m>\mathcal{L}_2</m> be the line <m>{{Lv}}</m>.  Find the point of intersection of <m>\mathcal{L}_1</m> and <m>\mathcal{L}_2</m>. If they don't intersect, show why.
                         </p>
                     </content>
                     <outtro>
@@ -35,7 +35,7 @@
                 <knowl>
                     <content>
                         <p>
-                            Find the plane orthogonal to <m>{{planeV}} = {{k0}} </m> containing <m>\mathcal{L}_1={{Lu}}</m>.
+                            Find the plane orthogonal to the plane <m>{{planeV}} = {{k0}} </m> and containing the line <m>{{Lu}}</m>.
                         </p>
                     </content>
                     <outtro>
