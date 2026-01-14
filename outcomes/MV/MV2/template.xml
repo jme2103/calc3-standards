@@ -4,7 +4,22 @@
         <p>
             Let <m>\mathbf{v}=\langle {{v0}}, {{v1}}, {{v2}}\rangle</m> and <m>\mathbf{w}=\langle {{w0}}, {{w1}}, {{w2}}\rangle</m>.
         </p>
-    </intro>    
+    </intro>
+
+    <knowl>
+        <content>
+            <p>Plot the projection of <m>\mathbf{v}+\mathbf{w}</m> onto the <m>{{plane}}</m>-plane in terms of the projections of <m>\mathbf{v}</m> and <m>\mathbf{w}</m> using the head-to-tail (i.e. parallelogram) method.</p>
+        </content>
+        <!-- <content>
+            <p>Plot <m>\mathbf{u}</m> in terms of <m>({{a}})\mathbf{v}</m> and <m>({{b}})\mathbf{w}</m>, using the head-to-tail method.</p>
+        </content> -->
+        <outtro>
+            <p align='center'><image source="assets/MV2/generated/{{__seed__}}/2dplot.png" description="Vector Addition: Parallelogram Rule"/></p>
+        </outtro>
+        <!-- <outtro>
+            <p>The vector <m>\mathbf{u}</m> will have its tail at {{initp}} and its head at {{termp}}.</p>
+        </outtro> -->
+    </knowl>    
             
     <knowl>
         <content>
@@ -33,7 +48,7 @@
     <knowl>
         <content>
             <p>
-                Find a vector of magnitude 1 in the same direction as <m>\mathbf{u}</m>. 
+                Find a vector of magnitude <m>1</m> in the same direction as <m>\mathbf{u}</m>. 
             </p>
         </content>
         <outtro>
@@ -42,19 +57,6 @@
             </p>
         </outtro>
     </knowl>
-    <knowl>
-        <content>
-            <p>Plot the projection of <m>\mathbf{u}</m> onto the <m>xy</m>-plane in terms of the projections of <m>({{a}})\mathbf{v}</m> and <m>({{b}})\mathbf{w}</m>, using the head-to-tail (i.e. parallelogram) method.</p>
-        </content>
-        <!-- <content>
-            <p>Plot <m>\mathbf{u}</m> in terms of <m>({{a}})\mathbf{v}</m> and <m>({{b}})\mathbf{w}</m>, using the head-to-tail method.</p>
-        </content> -->
-        <outtro>
-            <p>The projection of <m>\mathbf{u}</m> will have its tail at {{initp}} and its head at {{termp}}.</p>
-        </outtro>
-        <!-- <outtro>
-            <p>The vector <m>\mathbf{u}</m> will have its tail at {{initp}} and its head at {{termp}}.</p>
-        </outtro> -->
-    </knowl>
+    
     
 </knowl>

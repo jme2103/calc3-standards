@@ -16,6 +16,15 @@ class Generator(BaseGenerator):
             b=randint(1,3)
         
             case = choice([-1,1])
+
+            # variables needed to pass to graphics
+            
+            plane = ""
+            horiz_axis = ""
+            vert_axis = ""
+            two_d_v = vector([0,0])
+            two_d_w = vector([0,0])
+            two_d_sum = vector([0,0])
         
             if case == 1:
                 op = '+',
@@ -33,7 +42,38 @@ class Generator(BaseGenerator):
             mag=(u[0]^2+u[1]^2+u[2]^2)^(1/2)
             if mag!=0:
                 unitu=[u[0]/mag, u[1]/mag, u[2]/mag]
+            
+            # do task 4 - projections
+            scenario = randint(0,2)
+            if scenario == 0:
+                # project on yz-plane
+                plane = "yz"
+                horiz_axis = "$y$"
+                vert_axis = "$z$"
+                two_d_v = vector([v[1], v[2]])
+                two_d_w = vector([w[1], w[2]])
+                two_d_sum = two_d_v + two_d_w
+            elif scenario == 1:
+                # project on xz-plane
+                plane = "xz"
+                horiz_axis = "$x$"
+                vert_axis = "$z$"
+                two_d_v = vector([v[0], v[2]])
+                two_d_w = vector([w[0], w[2]])
+                two_d_sum = two_d_v + two_d_w
+            else:
+                # project on xy-plane
+                plane = "xy"
+                horiz_axis = "$x$"
+                vert_axis = "$y$"
+                two_d_v = vector([v[0], v[1]])
+                two_d_w = vector([w[0], w[1]])
+                two_d_sum = two_d_v + two_d_w
+            
+            
         
+        
+
         
         #surface = x^2+y^2
         return {
@@ -63,14 +103,20 @@ class Generator(BaseGenerator):
             "vecwy": a*v[1]+case*b*w[1]*t,
             "vecwz": a*v[2]+case*b*w[2]*t,
             "initp": initp,
-            "termp": termp
+            "termp": termp,
             
-            #"slope": m,
-            #"intercept": b,
+            "plane": plane,
+            "horiz_axis": horiz_axis,
+            "vert_axis": vert_axis,
+            "two_d_vx": two_d_v[0],
+            "two_d_vy": two_d_v[1],
+            "two_d_wx": two_d_w[0],
+            "two_d_wy": two_d_w[1],
+            "two_d_sumx": two_d_sum[0],
+            "two_d_sumy": two_d_sum[1]
         }
 
- #   @provide_data
- #   def graphics(data):
- #       return {
- #           "plot": (parametric_plot3d([data['vecvx'], data['vecvy'], data['vecvz']], (t, 0, 1), color='blue')+parametric_plot3d([data['vecwx'], data['vecwy'], data['vecwz']], (t, 0, 1), color='red'))+parametric_plot3d([data['vecux'], data['vecuy'], data['vecuz']], (t, 0, 1), color='purple')
- #       }
+    @provide_data
+    def graphics(data):
+        return {"2dplot": plot(vector([data['two_d_vx'],data['two_d_vy']]), color='blue', aspect_ratio='automatic', figsize=6, axes_labels=[data['horiz_axis'],data['vert_axis']] ) + plot(vector([data['two_d_vx'],data['two_d_vy']]), color='blue', linestyle='--',start=(data['two_d_wx'],data['two_d_wy']) ) + plot(vector([data['two_d_wx'],data['two_d_wy']]), color='red') + plot(vector([data['two_d_wx'],data['two_d_wy']]), color='red', linestyle=':',start=(data['two_d_vx'],data['two_d_vy'])) + plot(vector([data['two_d_sumx'],data['two_d_sumy']]), color='purple')
+        }
