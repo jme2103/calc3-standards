@@ -140,5 +140,9 @@ class Generator(BaseGenerator):
     def graphics(data):
         # updated by clontz
         return {#"param": parametric_plot3d([data['f0'], data['g0'], data['h0']], (t, -2, 2))
-                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_fontsize=11, label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,color='red')+text('$P$',(data['x0'],data['y0']),color='red',horizontal_alignment='left',vertical_alignment="top",fontsize=14)
+                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_fontsize=11, label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,color='red')+text('$P$',(data['x0'],data['y0']),color='red',horizontal_alignment='left',vertical_alignment="top",fontsize=14),
+                "p1": plot(vector([data["fx0"],data["fy0"]]), color="blue", aspect_ratio=1, figsize=3) + plot(vector([data["u0"],data["v0"]]), color="red"),
+                "p2": plot(vector([data["fx0"],data["fy0"]]), color="blue", aspect_ratio=1, figsize=3) + plot(vector([data["u1"],data["v1"]]), color="red"),
+                "p3": plot(vector([data["fx0"],data["fy0"]]), color="blue", aspect_ratio=1, figsize=3) + plot(vector([data["u2"],data["v2"]]), color="red"),
+                "p4": plot(vector([data["fx0"],data["fy0"]]), color="blue", aspect_ratio=1, figsize=3) + plot(vector([data["u3"],data["v3"]]), color="red")
                }
