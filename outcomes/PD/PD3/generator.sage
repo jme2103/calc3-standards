@@ -87,7 +87,14 @@ class Generator(BaseGenerator):
         dy = (g[0]*yy[0]+g[1]*yy[1])/sqrt(yy[0]^2+yy[1]^2)
         dz = (g[0]*z[0]+g[1]*z[1])/sqrt(z[0]^2+z[1]^2)
 
+        # randomly choose a non-gradient and non-perpendicula 
+        # direction to have them compute derivative directly
+
+        compute_dir = [0,0]
+        while(compute_dir[0]*g[0] + compute_dir[1]*g[1] == 0 or compute_dir[0]*g[1] - compute_dir[1]*g[0] == 0):
+            compute_dir = [randint(-3,3),randint(-3,3)]
         
+        compute_dir_ans = (g[0]*compute_dir[0]+g[1]*compute_dir[1])/sqrt(compute_dir[0]^2+compute_dir[1]^2)
         
         return {
             "f": func(x,y),
@@ -123,7 +130,10 @@ class Generator(BaseGenerator):
             "dw": dw,
             "dx": dx,
             "dy": dy,
-            "dz": dz
+            "dz": dz,
+            "compute_dirx": compute_dir[0],
+            "compute_diry": compute_dir[1],
+            "compute_dir_ans": compute_dir_ans,
         }
 
     @provide_data

@@ -5,8 +5,7 @@
         <intro>
             <p>A mysterious function <m>f(x,y)</m> has first partial derivatives</p>
             <p><me>f_x(x,y) = {{fx}}\qquad</me> and </p>
-            <p><me>f_y(x,y) = {{fy}}\qquad</me>.
-                </p>            
+            <p><me>f_y(x,y) = {{fy}}\qquad</me></p>            
             <p>We don't know a formula for <m>f</m>, but we do know that <m>f({{x0}},{{y0}}) = {{z0}}.</m></p>
         </intro>
 
@@ -31,7 +30,7 @@
         </content>
         <outtro>
             <p>
-                An approximate value is <m>{{z0}}+{{fx0}}({{dx}})+{{fy0}}({{dy}}) = {{z1}}</m>.
+                <m>f({{x1}},{{y1}}) \approx {{z0}}+{{fx0}}({{dx}})+{{fy0}}({{dy}}) = {{z1}}</m>.
             </p>
             </outtro>
         </knowl>

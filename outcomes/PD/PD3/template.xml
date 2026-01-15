@@ -34,20 +34,30 @@
                 The gradient at the indicated point is <m>\nabla f( {{x0}},{{y0}} ) = \bigl\langle {{fx0}},{{fy0}} \bigr\rangle.</m>
             </p>
             </outtro>
-        </knowl>        
+        </knowl>
         <knowl>
         <content>
             <p>
-                Rank the values of the following directional derivatives from least to greatest on the number line, and explain your answer.
+                Directly compute the <m>D_{ \langle {{compute_dirx}},{{compute_diry}} \rangle }f({{x0}},{{y0}})</m>.
             </p>
-            <p>Hint: Try to do this without computing their values!</p>
+        </content>
+        <outtro>
+            <p><m>D_{ \langle {{compute_dirx}},{{compute_diry}} \rangle }f({{x0}},{{y0}}) = {{compute_dir_ans}}</m></p>
+        </outtro>
+        </knowl>
+        <knowl>
+        <content>
+            <p>
+                Use geometry to rank the values of the following directional derivatives from least to greatest (i.e. left to right on the number line). Justify your answer by sketching how the gradient and the direction vector are oriented with respect to each other.
+            </p>
             <p>
                 <m>D_{ \langle {{a0}},{{b0}} \rangle }f({{x0}},{{y0}})</m>, <m>\quad D_{ \langle {{a1}},{{b1}} \rangle }f({{x0}},{{y0}})</m>, <m>\quad D_{ \langle {{a2}},{{b2}} \rangle }f({{x0}},{{y0}})</m>, and <m>\quad D_{ \langle {{a3}},{{b3}} \rangle }f({{x0}},{{y0}})</m>
             </p>
         </content>
         <outtro>
             <p>
-                From least to greatest:
+                You answer should have four sketches and use whether the angle between the gradient and the direction vector is
+                is acute, obtuse, or perpedicular to determine the order. To check your work, here are the values from least to greatest.
             </p>
             <p><m>D_{ \langle {{u0}},{{v0}} \rangle }f({{x0}},{{y0}}) = {{dw}}</m></p>
             <p><m>D_{ \langle {{u1}},{{v1}} \rangle }f({{x0}},{{y0}}) = {{dx}}</m></p>
