@@ -49,7 +49,7 @@
     
     <knowl>
         <intro>
-        <p>Consider the vector field <m>\mathbf{F}(x,y,z)={{F2}}</m>, and the closed contour <m>C</m>: traversing points {{#V}} <m>{{.}}</m>, {{/V}} then back to the beginning, oriented in a counter-clockwise orientation</p>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)={{F2}}</m>, and the closed, piecewise linear curve <m>C</m>: traversing points {{#V}} <m>{{.}}</m>, {{/V}} then back to the beginning, oriented in a counter-clockwise orientation</p>
         </intro>
         
         <knowl>

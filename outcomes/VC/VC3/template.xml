@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <intro>
+    <!-- <intro>
         <p>In this problem, we'll consider line integrals of gradient vector fields.</p>
-    </intro>
+    </intro> -->
 
     <knowl>
         <content>

@@ -48,30 +48,29 @@
     </knowl>
     
     
+
+
+        
     <knowl>
-        <intro>
+        <content>
         <p>Consider the vector field <m>\mathbf{F}(x,y)</m> and point <m>Q={{Q}}</m>.</p>
         <p><image
-                source="assets/VC5/generated/{{__seed__}}/field.png"
-                description="The vector field F(x,y) and point Q={{Q}}."/></p>
-        </intro>
-        
-        <knowl>
-            <content>
-                <p>
-                    Explain whether the circulation density at <m>Q={{Q}}</m> positive, negative or zero.
-                </p>
-            </content>
-            <outtro>
-                <p>
-                    The circulation density is {{circdens}}.
-                </p>
-            </outtro>
-        </knowl>
-        
-        
-        
+            source="assets/VC5/generated/{{__seed__}}/field.png"
+            description="The vector field F(x,y) and point Q={{Q}}."/></p>
+        <p>
+            Explain whether the circulation density at <m>Q={{Q}}</m> positive, negative or zero.
+        </p>
+        </content>
+        <outtro>
+            <p>
+                The circulation density is {{circdens}}.
+            </p>
+        </outtro>
     </knowl>
+        
+        
+        
+
     
    
     
