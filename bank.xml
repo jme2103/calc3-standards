@@ -285,7 +285,7 @@
         
 
     <!-- Sample outcomes for testing -->
-        <outcome>
+        <!-- <outcome>
             <title>Sample Outcome</title>
             <slug>EX1</slug>
             <path>outcomes/EX1</path>
@@ -300,6 +300,6 @@ Simplify the sum of two monomials.
             <description>
 Example of generating graphics.
             </description>
-        </outcome>
+        </outcome> -->
     </outcomes>
 </bank>
